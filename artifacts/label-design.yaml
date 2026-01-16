@@ -1,1 +1,31 @@
 
+label:
+  name: "CUI"
+  description: "Controlled Unclassified Information (CUI) label used to protect defense-related sensitive information."
+  compliance_alignment:
+    framework: "CMMC Level 2 / NIST 800-171"
+    controls:
+      - "3.13.11 (Cryptographic Protection)"
+      - "3.1.3 (Control Access)"
+      - "3.8.9 (Protect CUI During Transmission)"
+  protection_settings:
+    encryption:
+      enabled: true
+      technology: "Azure Rights Management (AAD-RMS)"
+      offline_access_days: 7
+      access_permissions:
+        - "View"
+        - "Edit"
+        - "Save As"
+    content_marking:
+      header: "CUI – Controlled Unclassified Information"
+      footer: "Handle per CMMC Level 2 Requirements"
+      watermark: "CUI"
+    user_actions:
+      require_justification_on_downgrade: true
+      block_external_sharing: true
+  purpose: >
+    This sensitivity label ensures that all data classified as CUI is encrypted,
+    marked, and protected against unauthorized access inside and outside
+    the organization.
+
