@@ -6,12 +6,12 @@ This policy defines **who** can use the CUI sensitivity label, **where** it appe
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Ensure only approved users can apply CUI protections and enforce mandatory labeling aligned to **CMMC Level 2** and **NIST 800-171**.
 
 ---
 
-## 👥 Scope: Target Users
+##  Scope: Target Users
 This label is published to the following security group:
 
 - **CUI_Enclave_All**  
@@ -19,7 +19,7 @@ This label is published to the following security group:
 
 ---
 
-## 📝 Mandatory Labeling Configuration
+## Mandatory Labeling Configuration
 - **Mandatory labeling:** Enabled  
 - **Default label:** `CUI`  
 - **Downgrade justification:** Required  
@@ -27,7 +27,7 @@ This label is published to the following security group:
 
 ---
 
-## 💻 Applications Covered
+## Applications Covered
 - Word  
 - Excel  
 - PowerPoint  
