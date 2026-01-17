@@ -4,9 +4,7 @@
 This folder contains supporting evidence for the CUI Protection Proof of Concept.
 
 ## Included
-
-- **Repository structure screenshot** 
-- **Sample YAML file screenshot** 
+ 
 - **Placeholder evidence file** 
 
 ## Purpose
