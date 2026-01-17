@@ -1,6 +1,5 @@
 
 # Template PowerShell script for creating Sensitivity Labels in Microsoft Purview
-# It shows your understanding of label automation and can be adapted to a real tenant later.
 
 Write-Host "Creating CUI Sensitivity Labels..."
 
