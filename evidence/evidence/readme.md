@@ -17,7 +17,5 @@ In a Microsoft 365 tenant, this folder would hold:
 - DLP alert screenshots
 - Activity Explorer logs
 - Policy exports
-- Audit-ready documentation
-
-For this POC, it demonstrates your understanding of how evidence is collected and organized.
+- Audit-ready documentation.
 
